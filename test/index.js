@@ -31,7 +31,7 @@ const should = require('chai').should();
 describe('tests', function () {
     it('test case 1', function () {
         gitbookFooter.test({
-			'page-footer': {
+			'page-footer-liziwl': {
 				'timeColor': '#a10000',
 				'copyrightColor': '#a10000'
 			}
@@ -44,7 +44,7 @@ describe('tests', function () {
 
     it('test case 3', function () {
         gitbookFooter.test({
-			'page-footer': {
+			'page-footer-liziwl': {
 				'description': 'Updated at',
 				'format': 'yyyy-MM-dd hh:mm:ss',
 				'copyright': 'Copyright &#169; tester',

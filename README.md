@@ -1,8 +1,6 @@
 ## page-footer
 
-![gitbook](https://cdn.rawgit.com/aleen42/badges/master/src/gitbook_1.svg) ![gitbook](https://cdn.rawgit.com/aleen42/badges/master/src/gitbook_2.svg) [![Pay](https://img.shields.io/badge/%24-free-%23a10000.svg)](#) [![GitHub issues](https://img.shields.io/github/issues/aleen42/gitbook-footer.svg)](https://github.com/aleen42/gitbook-footer/issues) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/aleen42/gitbook-footer/master/LICENSE) [![Gitter](https://badges.gitter.im/aleen42/gitbook-footer.svg)](https://gitter.im/aleen42/gitbook-footer?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-
-[![npm](https://img.shields.io/npm/v/gitbook-plugin-page-footer.svg)](https://www.npmjs.com/package/gitbook-plugin-page-footer) [![Build Status](https://travis-ci.org/aleen42/gitbook-footer.svg?branch=master)](https://travis-ci.org/aleen42/gitbook-footer) [![devDependency Status](https://david-dm.org/aleen42/gitbook-footer/dev-status.svg)](https://david-dm.org/aleen42/gitbook-footer#info=devDependencies) [![npm](https://img.shields.io/npm/dt/gitbook-plugin-page-footer.svg)](https://www.npmjs.com/package/gitbook-plugin-page-footer)
+Forked from: https://github.com/aleen42/gitbook-footer
 
 a gitbook-plugin for adding footer.
 
@@ -28,7 +26,7 @@ add the following plugins to your `book.json` and run `gitbook install`
 
 ```json
 {
-    "plugins": ["page-footer"]
+    "plugins": ["page-footer-liziwl"]
 }
 ```
 
@@ -41,10 +39,10 @@ configuration option can be set as an obj like, and of course you can use a defa
 ```json
 {
 	"plugins": [
-		"page-footer"
+		"page-footer-liziwl"
 	],
 	"pluginsConfig": {
-		"page-footer": {
+		"page-footer-liziwl": {
 			"description": "modified at",
 			"signature": "Aleen",
 			"wisdom": "More than a coder, more than a designer",

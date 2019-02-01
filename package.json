@@ -1,33 +1,34 @@
 {
-  "name": "gitbook-plugin-page-footer",
-  "version": "5.4.1",
+  "name": "gitbook-plugin-page-footer-liziwl",
+  "version": "1.0.1",
   "description": "a gitbook-plugin for generating footer",
   "engines": {
     "gitbook": ">=3.0.0-pre.0"
   },
   "main": "./lib/index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aleen42/gitbook-footer.git"
+    "url": "git+https://github.com/liziwl/gitbook-footer.git"
   },
   "keywords": [
     "gitbook",
     "gitbook-plugin",
     "footer"
   ],
-  "author": "aleen42 <aleen42@vip.qq.com> (http://aleen42.github.io/pc.html)",
+  "author": "liziwl <leezisy@gmail.com> (https://liziwl.cn/about/)",
   "contributors": [
+    "liziwl <leezisy@gmail.com>",
     "aleen42 <aleen42@vip.qq.com>",
     "TuckerWhitehouse <TuckerWhitehouse@gmail.com>"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aleen42/gitbook-footer/issues"
+    "url": "https://github.com/liziwl/gitbook-footer/issues"
   },
-  "homepage": "https://github.com/aleen42/gitbook-footer#readme",
+  "homepage": "https://github.com/liziwl/gitbook-footer#readme",
   "dependencies": {
     "sync-request": "3.0.1",
     "node-cache": "3.2.1"
@@ -60,7 +61,7 @@
       },
       "copyright": {
         "type": "string",
-        "default": "Copyright © aleen42",
+        "default": "Copyright © liziwl",
         "title": "Description for your Copyright"
       },
       "timeColor": {
@@ -116,5 +117,8 @@
         "description": "choose your page footer style (normal, symmetrical)"
       }
     }
+  },
+  "directories": {
+    "test": "test"
   }
 }
