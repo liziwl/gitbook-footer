@@ -20,6 +20,7 @@
 }
 
 .box__issues {
+	display: none;
 	margin-top: 50px !important;
 	text-align: center !important;
 }
@@ -83,6 +84,10 @@
 	}
 }
 
+.busuanzi-value {
+	margin: 0 5px;
+}
+
 /**
  *
  *
@@ -142,6 +147,8 @@
 
 .footer__container--symmetrical {
 	text-align: center !important;
+	border-top: 1px solid #ccc;
+	padding-top: 10px;
 }
 
 .footer__description--symmetrical {
@@ -151,10 +158,10 @@
 }
 
 .footer__author--symmetrical {
-	font-size: 2em !important;
-	padding-left: 0.8em !important;
-	border-bottom: 1px solid #ccc;
-	padding-bottom: 10px;
+	font-size: 1.5em !important;
+	/* padding-left: 0.8em !important; */
+	/* border-bottom: 1px solid #ccc; */
+	/* padding-bottom: 10px; */
 }
 
 .footer__modifyTime--symmetrical {
